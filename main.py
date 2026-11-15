@@ -64,4 +64,8 @@ def main_page():
 
         refresh_campaign_list()
 
-ui.run(port=8080, title="Campaign Planner", reload=True)
+# Run the app in a browser
+# ui.run(port=8080, title="Campaign Planner", reload=True)
+
+# Run the app in a standalone window
+ui.run(native=True, title='Campaign Planner', reload=False)
